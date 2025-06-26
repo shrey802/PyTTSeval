@@ -3,3 +3,7 @@ pip==25.1
 setuptools==78.1.1
 wheel==0.45.1
 tzdata==2025b
+librosa
+metrics-0.0.2
+Pillow
+matplotlib
