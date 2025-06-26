@@ -9,5 +9,5 @@ def plot_f0_curve(f0_ref, f0_synth, name='Sample', nameis='Sample2'):
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig(f"{name} -> {nameis}")
+    plt.savefig(f"F0 - {name} -> {nameis}")
     plt.show()
