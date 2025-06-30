@@ -3,6 +3,7 @@ from metrics.f0 import run_f0_fe_batch
 from metrics.stat_moment import run_stat_moment
 from metrics.MCD import run_mcd
 from metrics.MSD import run_msd
+from metrics.DTW import run_DTW
 
 # Metrics Paths
 ref_path = "/home/shreyash/Desktop/PyTTSeval/data/GoogleTTS/reference"
@@ -24,7 +25,10 @@ def main():
 
 
 # MSD
-result = run_msd(ref_path, synth_path)
+# result = run_msd(ref_path, synth_path)
+
+# DTW
+# result = run_DTW(ref_path, synth_path)
 
 if __name__ == "__main__":
     main()
